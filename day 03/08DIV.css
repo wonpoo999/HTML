@@ -1,0 +1,63 @@
+div.container {
+    width: 400px;
+    margin: 5%;
+    border: 2px solid #264de4;
+}
+
+div.orange {
+    width: 400px;
+    margin: 5%;
+    border: 2px solid #e44d26;
+}
+
+div.csslogo{
+margin: 7%;
+object-fit: contain
+}
+
+div.htmlogo{
+margin: 5%;
+object-fit: contain
+}
+
+/* 여러 곳에서 사용되는 속성은 별도로 정의 */
+div.bottom {
+    border-bottom: 1px solid gray;
+}
+/* padding, margin 속성값이 한 개일 때, 상하좌우 모두 적용
+                           두 개일 때, 상하좌우 별도로 적용
+*/
+
+div.header {
+    text-align: center;
+    padding: 3px;
+}
+/* 크기 단위를 %로 하면 부모 container 요소의 크기를 기준으로 비율 정함 */
+div.logo {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+div.table {}
+
+div.footer {
+    text-align: center;
+    padding-top: 2px;
+}
+/* padding top bottom(bottom은 있나?) 이미지 위 아래 여백 맞추기용
+
+/* span 요소 - 단순히 텍스트를 감싸기 위한 목적.(별도의 스타일 지정 가능) */
+span {
+    display: inline-block;
+    /* 인라인 특징을 유지하면서 블록처럼 크기설정  */
+    padding: 4px 10px;
+
+}
+
+span.title {
+    width: 25%;
+    border-right: 1px solid gray;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Malgun Gothic";
+}

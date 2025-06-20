@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입-연습</title>
+    <link rel="icon" sizes="16x16" href="..\day 03\다운로드.png"/>
+</head>
+<body>
+    <a href="https://www.himedia.co.kr/" img src="www.jpg"></a>
+    <h3>Sign up</h3>
+    <hr>
+    <table>
+        <tr>
+            <th><label for="userid">ID :</label></th>
+            <td>
+                <input type="text" name="username" id="userid" placeholder="enter the ID" required />
+            </td>
+        <th><label for="userid">PW :</label></th>
+            <td>
+                <input type="text" name="password" id="password" placeholder="enter the Password" required/>
+            </td>
+            <td colspan="2">
+                <input type="radio" name="age" id="ageY">
+                <label for="ageY">14세 이상</label>
+                <input type="radio" name="age" id="ageN" value="no">
+                <label for="ageN">14세 미만</label>
+            </td>
+        </tr>
+            <th><label for="Residence Area"> 거주지역 : </label>
+            <select name="address" id="address">
+                    <option value="Seoul">서울</option>
+                    <option value="Incheon">인천</option>
+                    <option value="Daezeon">대전</option>
+                    <option value="Busan">부산</option>
+                    <option value="Kangwon">강원</option>
+                    <option value="Kyeongki">경기</option>
+                </th>
+                    
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <span> 취미를 선택하세요. ☞ </span>
+                <input type="checkbox" name="hobby" id="sport" value="운동">
+                <label for="sports">운동</label>
+                <input type="checkbox" name="hobby" id="read" value="독서">
+                <label for="read">독서</label>
+                <input type="checkbox" name="sing" id="sing" value="노래">
+                <label for="sing">노래</label>
+                <input type="checkbox" name="cooking" id="cooking" value="요리">
+                <label for="cooking">요리</label>
+            </td>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                <!-- 데이터를 서버로 보내는 버튼은 submit. form 안에 있을 때는 type 생략 가능 -->
+                 <button>Save</button>
+                <button type>"reset">초기화</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

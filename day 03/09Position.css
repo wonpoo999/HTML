@@ -1,0 +1,31 @@
+div {
+    padding: 10px;
+width: 100px;
+height: 100px;
+background-color: rgb(136, 51, 93);
+margin: 10px;
+}
+/* 기본 position 값은 static */
+
+/*position: relative; 는 원래 배치되는 자리에서 이동하는 */
+div:nth-child(4) {
+    position: relative;
+    left: 500px;
+}
+
+/* posotion: absolute; 좌표를 left, top 만큼 이동한 위치로 배치가 된다
+    웹문서 (body 기준)
+*/
+div:nth-child(5) {
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+
+/* position: fixed; 좌표 left, top 위치에 고정이 되는건데 웹문서 기준이 아니라 브라우저 기준. 
+예를 들어 웹사이트 우측 하단에 live chatting이나 bot chatting 박아져 있는 건 이 방법을 사용하여 고정한 것*/
+div:nth-child(6) {
+    position: fixed;
+    left: 500px;
+    top: 200px;
+}
